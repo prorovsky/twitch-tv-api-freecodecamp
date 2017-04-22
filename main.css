@@ -1,0 +1,52 @@
+body {
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    background-color: #ddd;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+section {
+    margin: 5px 5px;
+}
+
+main {
+    background-color: #eee;
+    text-align: center;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.channel-logo {
+    margin: 5px;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.status-button {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.blue-background {
+    background-color: rgba(50, 50, 200, 0.5);
+}
+
+.green-background {
+    background-color: rgba(50, 200, 50, 0.5);
+}
+
+.red-background {
+    background-color: rgba(200, 50, 50, 0.5);
+}
